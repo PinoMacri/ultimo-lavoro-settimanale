@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* IMPOSTAZIONI GENERALI */
+body {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sfondo.png);
+    background-position: center;
+    line-height: 1.5;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aqua;
+    padding: 20px;
+    background-image: linear-gradient(#459bbf , #2f6a86 );
+    box-shadow: 0px 0px 5px 2px grey;
+
+}
+
+div {
+    color: white;
+    font-weight: 700;
+}
+
+.menu {
+    color: white;
+    font-weight: 700;
+}
+
+
+header li {
+    text-align: center;
+    margin: 5px;
+    list-style-type: none;
+}
+
+header li ::before {
+    content: "\21D2";
+}
+
+header li ::after {
+    content: "\21D0";
+}
+
+/* MAIN */
+main {
+    background-color: white;
+    box-shadow: 0px 0px 4px 4px grey; 
+padding: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+ul {
+    margin-left: 1.5em;
+}
+ol {
+    margin-left: 2em;
+}
+
+code {
+    background-color: rgb(218, 216, 216);
+    border-radius: 3px;
+    border: solid 1px black; 
+}
+
+
+
+
+/* TABELLE */
+caption {
+    font-weight: 500; font-style: italic;
+}
+table, tr, td, th{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+th {
+    background-color: #2f6a86; color: white;
+}
+
+.dueid {
+    background-color: rgb(168, 168, 168);
+}
+
+iframe{
+    border-radius: 30px;
+}
+
+/* FORM */
+section {
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h2 {
+    font-size: 200%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(3, 92, 92); 
+    color: white;
+    font-weight: 1000;
+}
+
+
+
+
+#articoli {
+    font-size: 130%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/* ELEMENTI NELL' ASIDE */
+
+.unica
+{
+    background-color: gray;
+    border: 1px solid rgb(70, 70, 70);
+    padding: 10px;
+}
+  
+
+/* FOOTER */
+footer {
+    padding: 15px;
+    text-align: center;
+    background-image: linear-gradient(#459bbf , #2f6a86);
+    color: white;
+}
+
+.unicadue {
+    text-align: right;
+}
+
+#formattazione {
+    font-size: 100%;
+}
+
+input {
+    border: none;
+    border-bottom: 1px dashed black; 
+}
